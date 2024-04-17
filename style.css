@@ -467,7 +467,7 @@
     padding-left: 90px;
     padding-right: 90px;
     display: block;
-    linear-gradient(to right, #2bc495, #0c8b83);
+    linear-gradient:(to right, #2bc495, #0c8b83);
 height: 800px;
 }
 .button{
@@ -480,8 +480,7 @@ height: 800px;
     font-family:sans-serif;
     text-align: center;
     justify-content: center;
-    color
-    text-align: center;
+
     text-decoration: none;
     background-image: linear-gradient(129deg, #2bc495, #0c8b83);
     border-radius: 5px;
