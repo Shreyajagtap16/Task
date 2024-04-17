@@ -5,7 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#main{
+#main {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -243,19 +243,20 @@
     overflow: hidden;
 }
 
-#right-offer-photo img{
+#right-offer-photo img {
     /* width: 350px;
     height: 250px; */
-    width: 100%; /* Ensure the image fills the container horizontally */
+    width: 100%;
+    /* Ensure the image fills the container horizontally */
     height: auto;
     border-radius: 20px;
 }
 
-#right-offer-text{
-font-size: 20px;
+#right-offer-text {
+    font-size: 20px;
 }
 
-#right-offer-btn{
+#right-offer-btn {
     height: 85px;
     width: 400px;
     border-radius: 20px;
@@ -284,7 +285,7 @@ font-size: 20px;
     justify-content: center;
     position: absolute;
     font-family: sans-serif;
-    left:50%;
+    left: 50%;
     z-index: 1;
     top: 0%;
     background-color: #c8eadf;
@@ -303,4 +304,186 @@ font-size: 20px;
     box-sizing: border-box;
 }
 
+#main2 {
+    height: 850px;
+    width: 100%;
+    background-color: #c0e1d6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
 
+#main2div {
+    /* height: 700px; */
+    width: 944px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#divheading {
+    height: 72px;
+    font-size: 40px;
+}
+.logo {
+    background-color: #11980f;
+    height: 60px;
+    width: 60px;
+}
+#gridone{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#gridone-1 {
+    background-color: white;
+    width: 462px;
+    height: 136px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#gridone-1 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#gridone-2 {
+    background-color: white;
+    width: 462px;
+    height: 136px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#gridone-2 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* second grid column */
+#gridtwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#gridtwo-1 {
+    background-color: white;
+    width: 462px;
+    height: 136px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#gridtwo-2 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#gridtwo-2 {
+    background-color: white;
+    width: 462px;
+    height: 136px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#gridtwo-2 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* third div grid */
+#gridthree{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#gridthree-1 {
+    background-color: white;
+    width: 462px;
+    height: 136px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#gridthree-2 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#gridthree-2 {
+    background-color: white;
+    width: 462px;
+    height: 136px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#gridthree-2 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#main-2button
+{
+    margin-top: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+    display: block;
+    linear-gradient(to right, #2bc495, #0c8b83);
+height: 800px;
+}
+.button{
+    height: 800px;
+    width: 70%;
+    background-color:linear-gradient(to right, #2bc495, #0c8b83); ;
+}
+#buttontext{
+    font-size: 22px;
+    font-family:sans-serif;
+    text-align: center;
+    justify-content: center;
+    color
+    text-align: center;
+    text-decoration: none;
+    background-image: linear-gradient(129deg, #2bc495, #0c8b83);
+    border-radius: 5px;
+    height: 300px;
+}
